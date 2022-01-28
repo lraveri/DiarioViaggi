@@ -16,3 +16,9 @@ Per la parte di Frontend, è stato utilizzato VueJS e in particolare VueCLI.<br>
 Per la visualizzazione della mappa è stato utilizzato Leaflet.<br>
 Per la parte di stile è stato utilizzato Bootstrap.<br>
 In generale sono state riviste e utilizzate tutte le tecnologie per lo sviluppo di Applicazioni Web viste a lezione.<br>
+
+## Demo e frontend files
+Una demo del progetto è disponibile su <br>
+https://www.youtube.com/watch?v=s-144WD99Sw <br>
+<br>
+I file relativi al frontend sono disponibili nella directory webapp/frontend-files <br>
