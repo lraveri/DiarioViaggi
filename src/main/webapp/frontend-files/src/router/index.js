@@ -24,11 +24,7 @@ const routes = [
     name: "EditJourney",
     component: () => import("../views/EditJourney.vue"),
   },
-  {
-    path: "/login",
-    name: "Login",
-    component: () => import("../views/Login.vue"),
-  }
+  
 ];
 
 const router = new VueRouter({

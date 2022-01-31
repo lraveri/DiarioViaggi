@@ -10,13 +10,6 @@
         <option v-for="(viaggio, index) in viaggi" :key="index" :value="index">
           {{ viaggio.data }} - {{ viaggio.mezzo }} - {{ viaggio.tappe }}
         </option>
-        <!-- <option
-          v-for="viaggio in viaggi"
-          :key="viaggio._id"
-          :value="viaggio._id.randomValue1"
-        >
-          {{ viaggio.data }} - {{ viaggio.mezzo }} - {{ viaggio.tappe }}
-        </option> -->
       </select>
       <div class="mb-3">
         <label class="form-label">Data</label>
@@ -86,8 +79,6 @@ export default {
       const mezzo = this.selectedMezzo;
       const tappe = this.selectedTappe;
       const percorso = this.selectedPercorso;
-      //var uname = "MarcoRaveri";
-      //var pass = "Marco";
       axios
         .put(`${process.env.VUE_APP_APIROOT}`, {
           id: id,
@@ -115,16 +106,6 @@ export default {
       this.selectedPercorso = "";
     },
 
-    // setJourney: function (journeyId) {
-    //   console.log(journeyId);
-    //   const selectedJourney = this.viaggi.find(
-    //     viaggio => viaggio._id.randomValue1 === journeyId
-    //   );
-    //   console.log(selectedJourney);
-    //   this.selectedData = selectedJourney.data;
-    //   this.selectedMezzo = selectedJourney.mezzo;
-    //   this.selectedTappe = selectedJourney.tappe;
-    // },
   },
 };
 </script>

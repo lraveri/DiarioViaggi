@@ -13,8 +13,6 @@
       </div>
       <div class="mb-3">
         <label class="form-label">Mezzo</label>
-        <!-- <input type="text" class="form-control" v-model="mezzo" /> -->
-        <!-- <p>Mezzo</p> -->
         <select class="form-select" name="" id="" v-model="mezzo">
           <option disabled selected value>--Seleziona un opzione--</option>
           <option value="Auto">Auto</option>
